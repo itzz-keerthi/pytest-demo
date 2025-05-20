@@ -5,7 +5,7 @@ dependencies = [
     "urllib3==1.25.2",  # Known vulnerable version
     "cryptography==3.2.1",
     "requests==2.20.0", 
-    "Django==2.2.4"  # CVE-2020-9404
+    "Django==4.2.21"  # CVE-2020-9404
 ]
 [build-system]
 requires = ["setuptools>=42"]
