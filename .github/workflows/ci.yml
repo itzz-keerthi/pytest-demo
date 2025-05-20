@@ -13,5 +13,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pytest
+          pip install -e .  # Install package in editable mode
       - name: Run tests
         run: pytest
